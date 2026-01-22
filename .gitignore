@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+parts/
+sdist/
+var/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+target/
+
+# IDE/editor-specific files
+.idea/  # For PyCharm/IntelliJ
+.vscode/ # For VS Code
+*.swp
+*~
+.sess/
+.nyt/
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Sensitive files/credentials (add as needed)
+.env
+*.key
+*.pem
+settings.py # For Django projects, if it contains sensitive info
+
+# Lock files (generally recommended to include in version control, but listed here for awareness)
+# Pipfile.lock
+# poetry.lock
+# pdm.lock
+# uv.lock
+
+
