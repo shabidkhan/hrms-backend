@@ -55,6 +55,9 @@ def normalize_date(value: Optional[str]) -> Optional[str]:
             detail="Invalid date format. Use YYYY-MM-DD.",
         ) from exc
 
+@app.get("/")
+def read_root():
+    return {"message": "Hello World"}
 
 @app.get("/health")
 async def health() -> dict:
